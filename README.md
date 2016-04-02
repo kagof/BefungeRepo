@@ -1,5 +1,5 @@
 # BefungePower
-Befunge program using a recursive algorithm to generate x^n
+Befunge-93 program using a recursive algorithm to generate x^n. Note that this appears to just return 0 for any value greater than 2^16-1. This is because the Befunge-93 stack is of 16-bit signed long integers.
 
 The recursive algorithm used is:
 
