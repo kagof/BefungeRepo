@@ -1,5 +1,9 @@
-# BefungePower
-Befunge-93 program using a recursive algorithm to generate x^n.
+# BefungeRepo:
+This is a collection of fun little "programs" I've written in the [Befunge-93](http://esolangs.org/wiki/Befunge) esoteric programming language.
+
+## List of Programs:
+### Power
+Program using a recursive algorithm to generate x^n. This does not work for negative n.
 
 The recursive algorithm used is:
 
@@ -14,19 +18,5 @@ The recursive algorithm used is:
       }
     }
 
-The code in Befunge is:
-
-    >   #x  #n                   v
-    v "please enter x value: "   <
-    >,,,,,,,,,,,,,,,,,,,,,,& 25*,  50 p v
-    v "please enter n value: "          <
-    >,,,,,,,,,,,,,,,,,,,,,,& 25*, :90 p v
-                          v:            <
-                     v %2:_v
-                 v-1:_:2/               ^
-                 >                      ^
-         v  %2  _v#: <p091$<
-         #       >    " :rewsnA",,,,,,,,90g.@
-         >90g50g*90p ^
-         |
-         >90g:*90p   ^
+### RunningEnd
+An infinite loop in which the "end program" character '@' continuously runs away from the program counter.
