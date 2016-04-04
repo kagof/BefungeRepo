@@ -1,4 +1,4 @@
->   #x  #y                   v
+>   #x  #n                   v
 v "please enter x value: "   <
 >,,,,,,,,,,,,,,,,,,,,,,& 25*,  50 p v
 v "please enter n value: "          <
