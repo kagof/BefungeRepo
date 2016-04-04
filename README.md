@@ -20,3 +20,6 @@ The recursive algorithm used is:
 
 ### RunningEnd
 An infinite loop in which the "end program" character '@' continuously runs away from the program counter.
+
+### NumberGuesser
+Asks the user to think of a number between 1 and 10, and guesses what the user is thinking of. This is a larger program, and the code is somewhat difficult to follow.
