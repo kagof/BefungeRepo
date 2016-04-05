@@ -1,7 +1,7 @@
 # BefungeRepo:
 This is a collection of fun little "programs" I've written in the [Befunge-93](http://esolangs.org/wiki/Befunge) esoteric programming language.
 
-## List of Programs:
+## List of Programs (in order of creation):
 ### Power
 Program using a recursive algorithm to generate x^n. This does not work for negative n.
 
@@ -23,3 +23,6 @@ An infinite loop in which the "end program" character '@' continuously runs away
 
 ### NumberGuesser
 Asks the user to think of a number between 1 and 10, and guesses what the user is thinking of. This is a larger program, and the code is somewhat difficult to follow.
+
+### FizzBuzz
+Counts up from 1, saying "fizzbuzz" instead of multiples of 3 & 5, "fizz" instead of multiples of 3 & not 5, and "buzz" instead of multiples of 5 and not 3. I wanted to force myself to really use the 2-dimensional nature of Befunge, so I only allowed myself to write "fizzbuzz" once. Note that this is an infinite loop; be careful when running it!
