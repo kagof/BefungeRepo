@@ -26,3 +26,6 @@ Asks the user to think of a number between 1 and 10, and guesses what the user i
 
 ### FizzBuzz
 Counts up from 1, saying "fizzbuzz" instead of multiples of 3 & 5, "fizz" instead of multiples of 3 & not 5, and "buzz" instead of multiples of 5 and not 3. I wanted to force myself to really use the 2-dimensional nature of Befunge, so I only allowed myself to write "fizzbuzz" once. Note that this is an infinite loop; be careful when running it!
+
+### Quine
+Program which outputs itself.
