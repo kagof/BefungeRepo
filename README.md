@@ -29,3 +29,9 @@ Counts up from 1, saying "fizzbuzz" instead of multiples of 3 & 5, "fizz" instea
 
 ### Quine
 Program which outputs itself.
+
+### Factorial
+Computes the factorial of the number input by the user.
+
+### PrimeGenerator
+Quite inefficient program which lists all of the prime numbers (up to 2^16-1, to avoid potential arithmetic errors, and give the program a termination point). The counter compares each integer to EVERY positive integer (excluding 1) to see if it is a divisor, hence it is definitely an incredibly inefficient algorithm.
