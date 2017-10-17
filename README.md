@@ -35,3 +35,6 @@ Computes the factorial of the number input by the user.
 
 ### [PrimeGenerator](https://github.com/kagof/BefungeRepo/blob/master/PrimeGenerator.bf)
 Quite inefficient program which lists all of the prime numbers (up to 2^16-1, to avoid potential arithmetic errors, and give the program a termination point). The counter compares each integer to ***every*** positive integer below it (excluding 1) to see if it is a divisor, hence it is definitely an incredibly inefficient algorithm.
+
+### [HelloWorld](https://github.com/kagof/BefungeRepo/blob/master/HelloWorld.bf)
+Hello world program in Befunge which never uses string mode to add characters to the stack. Prints "Hello world!" on the torus and to the output.
